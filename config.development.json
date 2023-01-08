@@ -1,0 +1,29 @@
+{
+  "url": "http://ghost.local:5556/",
+  "server": {
+    "port": 5556,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "127.0.0.1",
+      "user": "root",
+      "password": "root",
+      "database": "ghost"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/Volumes/Data/Development/sources/ghost/replit/content"
+  }
+}
